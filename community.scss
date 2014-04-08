@@ -1,0 +1,26 @@
+@import "global/base.scss";
+@import "global/header.scss";
+
+body{
+	#imgGroupTbl{
+		p{
+			display:inline;
+		}
+	}
+
+	#importantLinks{
+		li{
+			*{
+				display:inline;
+			}
+		}
+	}
+
+	#flickrImgs, #favoredPrints,{
+		text-align:center;
+	}
+
+	.navigation{
+		display:none;
+	}
+}

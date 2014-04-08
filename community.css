@@ -238,75 +238,19 @@ body {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\000035}}
-body #terrainImgs {
-  max-width: 100%;
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\000038}}
-body #terrainImgs .terrainImg {
-  max-width: 582px;
-  display: inline-block;
-  padding: 10px;
-  vertical-align: top;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000313}}
-body #terrainImgs .terrainImg span {
-  margin: 10px;
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000320}}
-body #texturePacks {
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000322}}
-body #texturePacks .textureBox {
-  display: inline-block;
-  text-align: center;
-  width: 200px;
-  vertical-align: top;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000327}}
-body #texturePacks .textureBox span {
-  display: block;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000334}}
-body #sculpteoBlurb p, body #sculpteoBlurb a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/community\.scss}line{font-family:\000036}}
+body #imgGroupTbl p {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000339}}
-body #textureImgs, body #imgSmoothing {
-  width: 100%;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000341}}
-body #textureImgs img, body #imgSmoothing img {
-  margin: 3px 0;
-  width: 49.5%;
-  vertical-align: top;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000346}}
-body #textureImgs b, body #textureImgs p, body #textureImgs a, body #imgSmoothing b, body #imgSmoothing p, body #imgSmoothing a {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/community\.scss}line{font-family:\0000313}}
+body #importantLinks li * {
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000352}}
-body #balloonImgs img {
-  display: inline;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000359}}
-body #fullBlocksTable tr:first-of-type * {
-  font-family: 'Minecrafter';
-  font-weight: 100;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/community\.scss}line{font-family:\0000319}}
+body #flickrImgs, body #favoredPrints {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000366}}
-body #teapotImgs, body #blenderImgs {
-  text-align: center;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000371}}
-body #renderTips p, body #renderTips a {
-  display: inline;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/mineways\.scss}line{font-family:\0000374}}
-body #renderTips div {
-  text-align: center;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/community\.scss}line{font-family:\0000323}}
+body .navigation {
+  display: none;
 }

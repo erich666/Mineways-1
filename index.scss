@@ -1,0 +1,18 @@
+@import "global/base.scss";
+@import "global/header.scss";
+
+body{
+	#wrapper{
+		margin: auto 2% 7%;
+	}
+	#eiffelImgs{
+		text-align: center;
+		.eiffelContainer{
+			display:inline-block;
+		}
+		p, a, span{
+			@include minecrafter;
+		}
+	}
+}
+

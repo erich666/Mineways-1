@@ -1,0 +1,51 @@
+@import "base.scss";
+@import "compass";
+@import "colors.css";
+
+#header{
+	padding-bottom:10px;
+	text-align:center;
+	#mineways-header-image{
+		padding-bottom:10px;
+	}
+
+	p, span, a{
+		@include minecrafter;
+	}
+
+	#navbar{
+		+ div{
+			font-size: 0;
+		}
+		div{
+			padding-top: 10px;
+			text-align: center;
+			width:260px;
+			position:relative;
+			display:inline-block;
+			vertical-align: top;
+			border-radius:3px;
+			border: 1px solid #CCCCCC;
+			margin: 0px 5px;
+			> a{
+				text-decoration: none;
+				color: #005469;
+			}
+			a:hover{
+				color:#A8001C;
+			}
+			.drawer{
+
+			}
+			.drawer.closed ~ .drawerContents {
+				display:none;
+			}
+			.drawer.opened ~ .drawerContents {
+				display:block;
+			}
+			.drawer.active {
+			    display: block;
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+@import "base.scss";
+@import "compass";
+@import "colors.css";
+
+body{
+	#footer{
+		*{
+			@include minecrafterlite;
+			font-size:12px;
+		}
+		text-align:center;
+		p, div{
+			display:inline;
+		}
+		#lastUpdate{
+			margin:5px;
+			display:block;
+		}
+	}
+}

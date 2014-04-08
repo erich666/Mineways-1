@@ -1,0 +1,97 @@
+/**Mixins, variables, colors, etc **/
+.ib{
+	display:inline-block !important;
+}
+
+.b{
+	display:block;
+}
+
+//for aligning iframes specifically
+.mIframe{
+	display:block;
+	margin:0 auto;
+}
+
+.i{
+	display:inline !important;
+}
+
+@mixin trickleLine{
+	*{
+		display:inline;
+	}
+}
+
+.inliner{
+	@include trickleLine;
+}
+
+.center{
+	text-align: center;
+}
+
+a{
+	color:#005469;
+}
+a:hover{
+	color:#A8001C;
+}
+
+@mixin minecrafter{
+	font-family: 'Minecrafter';
+}
+
+@mixin minecrafterlite{
+	font-family: 'Minecrafter';
+	font-weight:100;
+}
+
+.minecrafter .children{
+	@include minecrafter;
+	*{
+		@include minecrafter;
+	}
+}
+
+.minecrafter{
+	@include minecrafter;
+}
+
+.noPadNoMarg{
+	padding:0;
+	margin:0;
+}
+
+@mixin varlera{
+	font-family: 'Varela Round', sans-serif;
+}
+
+b{
+	@include minecrafterlite;
+	position:relative;
+	top:2px;
+}
+
+h1, h2, h3, h4{
+	@include minecrafterlite;
+	text-align: center;
+}
+
+p, a, span{
+	@include varlera;
+}
+
+@font-face{
+    font-family: 'Minecrafter';
+    src: url('Minecrafter/minecrafter_3.eot');
+    src: url('Minecrafter/minecrafter_3.eot') format('embedded-opentype'),
+         url('Minecrafter/minecrafter_3.woff') format('woff'),
+         url('Minecrafter/minecrafter_3.ttf') format('truetype'),
+         url('Minecrafter/minecrafter_3.svg#MineCrafter3Regular') format('svg');
+}
+
+/** body styles **/
+body{
+	margin: 10px 15%;
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'MineCrafter3Regular';
+    src: url('minecrafter_3.eot');
+    src: url('minecrafter_3.eot') format('embedded-opentype'),
+         url('minecrafter_3.woff') format('woff'),
+         url('minecrafter_3.ttf') format('truetype'),
+         url('minecrafter_3.svg#MineCrafter3Regular') format('svg');
+}
