@@ -15,8 +15,8 @@
 
 	#navbar{
 		.menuDrawer{
+			text-align:left;
 			padding-top: 10px;
-			text-align: center;
 			width:260px;
 			position:relative;
 			display:inline-block;
@@ -25,6 +25,7 @@
 			border: 1px solid #CCCCCC;
 			margin: 0px 5px;
 			a{
+				margin-left:20px;
 				text-decoration: none;
 				color: #005469;
 			}
@@ -36,15 +37,13 @@
 			}
 			.contents{
 				display:block;
+				margin-left:10px;
+				a {
+					display:block;
+				}
 			}
 			.closed{
 				display:none;
-			}
-			.drawer.closed ~ .drawerContents {
-				//display:none;
-			}
-			.drawer.opened ~ .drawerContents {
-				//display:block;
 			}
 			.drawer.active {
 			    display: block;

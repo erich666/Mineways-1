@@ -64,6 +64,10 @@ a:hover{
 	font-weight:100;
 }
 
+@mixin minecrafterlite{
+	font-family: vt323, sans-serif;
+}
+
 /*
 //@mixin font-face($name, $font-files, $eot: false, $weight: false, $style: false) {
   $iefont: unquote("#{$eot}?#iefix");
