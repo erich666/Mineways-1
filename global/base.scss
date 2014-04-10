@@ -60,11 +60,6 @@ a:hover{
 }
 
 @mixin minecrafterlite{
-	font-family: 'Minecrafter';
-	font-weight:100;
-}
-
-@mixin minecrafterlite{
 	font-family: vt323, sans-serif;
 }
 
@@ -104,9 +99,7 @@ a:hover{
 	margin:0;
 }
 
-@mixin varlera{
-	font-family: 'Varela Round', sans-serif;
-}
+
 
 @mixin xy($x, $y){
 	width:  $x;
@@ -131,7 +124,7 @@ h1{
 }
 
 p, a, span{
-	@include varlera;
+	@include minecrafterlite;
 }
 
 @font-face{

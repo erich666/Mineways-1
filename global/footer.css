@@ -61,50 +61,50 @@ a:hover {
   color: #A8001C;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\0000386}}
 .minecrafter .children {
   font-family: 'Minecrafter';
   font-weight: 100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\0000388}}
 .minecrafter .children * {
   font-family: 'Minecrafter';
   font-weight: 100;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\0000393}}
 .minecrafter {
   font-family: 'Minecrafter';
   font-weight: 100;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\0000397}}
 .noPadNoMarg {
   padding: 0;
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003111}}
 b {
   font-family: vt323, sans-serif;
   position: relative;
   top: 2px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003117}}
 h2, h3, h4 {
   font-family: vt323, sans-serif;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003121}}
 h1 {
   font-family: vt323, sans-serif;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003126}}
 p, a, span {
-  font-family: 'Varela Round', sans-serif;
+  font-family: vt323, sans-serif;
 }
 
 @font-face {
@@ -114,7 +114,7 @@ p, a, span {
 }
 
 /** body styles **/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003140}}
 body {
   margin: 0px 15% 0 15%;
 }

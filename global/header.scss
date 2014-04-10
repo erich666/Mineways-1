@@ -5,25 +5,27 @@
 #header{
 	padding-bottom:10px;
 	text-align:center;
+
 	#mineways-header-image{
 		padding-bottom:10px;
 	}
 
 	p, span, a{
-		@include minecrafter;
+		@include minecrafterlite;
 	}
 
 	#navbar{
 		.menuDrawer{
 			text-align:left;
-			padding-top: 10px;
 			width:260px;
+			padding:10px 0;
 			position:relative;
 			display:inline-block;
 			vertical-align: top;
 			border-radius:3px;
 			border: 1px solid #CCCCCC;
 			margin: 0px 5px;
+			margin-bottom:10px;
 			a{
 				margin-left:20px;
 				text-decoration: none;
@@ -38,6 +40,7 @@
 			.contents{
 				display:block;
 				margin-left:10px;
+				border:none;
 				a {
 					display:block;
 				}

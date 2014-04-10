@@ -1218,3 +1218,67 @@ Load paths:
 2014-04-10 03:06:37 overwrite global/base.css 
 2014-04-10 03:06:38 overwrite global/footer.css 
 2014-04-10 03:06:38 overwrite global/header.css 
+2014-04-10 03:56:59 overwrite index.css 
+2014-04-10 04:42:22 overwrite community.css 
+2014-04-10 04:42:22 overwrite downloads.css 
+2014-04-10 04:42:23 overwrite index.css 
+2014-04-10 04:42:24 overwrite mineways.css 
+2014-04-10 04:42:24 overwrite global/base.css 
+2014-04-10 04:42:25 overwrite global/footer.css 
+2014-04-10 04:42:26 overwrite global/header.css 
+2014-04-10 04:44:41     error community.scss (Line 127 of global/base.scss: Undefined mixin 'varlera'.)
+2014-04-10 04:44:41 overwrite community.css 
+2014-04-10 04:44:42     error downloads.scss (Line 127 of global/base.scss: Undefined mixin 'varlera'.)
+2014-04-10 04:44:42 overwrite downloads.css 
+2014-04-10 04:44:42     error index.scss (Line 127 of global/base.scss: Undefined mixin 'varlera'.)
+2014-04-10 04:44:42 overwrite index.css 
+2014-04-10 04:44:42     error mineways.scss (Line 127 of global/base.scss: Undefined mixin 'varlera'.)
+2014-04-10 04:44:42 overwrite mineways.css 
+2014-04-10 04:44:42     error global/base.scss (Line 127: Undefined mixin 'varlera'.)
+2014-04-10 04:44:42 overwrite global/base.css 
+2014-04-10 04:44:43     error global/footer.scss (Line 127 of global/base.scss: Undefined mixin 'varlera'.)
+2014-04-10 04:44:43 overwrite global/footer.css 
+2014-04-10 04:44:43     error global/header.scss (Line 127 of global/base.scss: Undefined mixin 'varlera'.)
+2014-04-10 04:44:43 overwrite global/header.css 
+2014-04-10 04:44:53 overwrite community.css 
+2014-04-10 04:44:53 overwrite downloads.css 
+2014-04-10 04:44:54 overwrite index.css 
+2014-04-10 04:44:55 overwrite mineways.css 
+2014-04-10 04:44:55 overwrite global/base.css 
+2014-04-10 04:44:56 overwrite global/footer.css 
+2014-04-10 04:44:57 overwrite global/header.css 
+2014-04-10 04:45:01 identical community.css 
+2014-04-10 04:45:02 identical downloads.css 
+2014-04-10 04:45:03 identical index.css 
+2014-04-10 04:45:04 identical mineways.css 
+2014-04-10 04:45:04 identical global/base.css 
+2014-04-10 04:45:05 identical global/footer.css 
+2014-04-10 04:45:05 identical global/header.css 
+2014-04-10 04:58:32 overwrite community.css 
+2014-04-10 04:58:33 overwrite index.css 
+2014-04-10 04:58:34 overwrite mineways.css 
+2014-04-10 04:58:35 overwrite global/header.css 
+2014-04-10 05:03:05 overwrite community.css 
+2014-04-10 05:03:06 overwrite index.css 
+2014-04-10 05:03:07 overwrite mineways.css 
+2014-04-10 05:03:08 overwrite global/header.css 
+2014-04-10 05:03:14 overwrite community.css 
+2014-04-10 05:03:15 overwrite index.css 
+2014-04-10 05:03:15 overwrite mineways.css 
+2014-04-10 05:03:16 overwrite global/header.css 
+2014-04-10 05:09:06 overwrite community.css 
+2014-04-10 05:09:07 overwrite index.css 
+2014-04-10 05:09:08 overwrite mineways.css 
+2014-04-10 05:09:08 overwrite global/header.css 
+2014-04-10 05:13:56 overwrite community.css 
+2014-04-10 05:13:56 overwrite index.css 
+2014-04-10 05:13:57 overwrite mineways.css 
+2014-04-10 05:13:58 overwrite global/header.css 
+2014-04-10 05:18:06 overwrite community.css 
+2014-04-10 05:18:07 overwrite index.css 
+2014-04-10 05:18:08 overwrite mineways.css 
+2014-04-10 05:18:09 overwrite global/header.css 
+2014-04-10 05:20:30 overwrite community.css 
+2014-04-10 05:20:31 overwrite index.css 
+2014-04-10 05:20:32 overwrite mineways.css 
+2014-04-10 05:20:32 overwrite global/header.css 
