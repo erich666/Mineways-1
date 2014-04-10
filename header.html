@@ -17,7 +17,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
     <script src="javascripts/header.js"></script>
 </head>
-  <body>
+  <body class="ajax">
     <div id="header">
       <div id="mineways-header-image">
         <a href="index.html">
@@ -25,21 +25,30 @@
         </a>
       </div>
       <div id="navbar">
-        <div id="downloads">
-          <a title="Downloads" id="drawer1" class="drawer closed" href="downloads.html">Downloads</a>
-          <a title="Download for PC" class="drawerContents" href="http://realtimerendering.com/erich/minecraft/public/mineways/mineways.zip">Download for PC</a>
-          <a title="Download for Mac" class="drawerContents"  href="http://realtimerendering.com/erich/minecraft/public/mineways/MinewaysMac.zip">Download for Mac</a>
+        <div class="menuDrawer">
+          <a id="downloads" class="drawer">Downloads</a>
+          <div class="closed contents">
+            <a title="Download for PC" class="drawerContents" href="http://realtimerendering.com/erich/minecraft/public/mineways/mineways.zip">Download for PC</a>
+            <a title="Download for Mac" class="drawerContents"  href="http://realtimerendering.com/erich/minecraft/public/mineways/MinewaysMac.zip">Download for Mac</a>
+            <a title="Downloads" id="drawer1" class="drawerContents" href="downloads.html">How to Run</a>
+          </div>
         </div>
-        <div id="documentation">
-          <a title="Documentation" id="drawer2" class="drawer closed" href="mineways.html">Documentation</a>
-          <a title="Support" class="drawerContents" href="mailto:erich@acm.org?subject=Problem with Mineways">Support</a>
+        <div class="menuDrawer">
+          <a id="support" class="drawer">Support</a>
+          <div class="closed contents">
+            <a title="Documentation" id="drawer2" class="drawerContents" href="mineways.html">Documentation</a>
+            <a title="Support" class="drawerContents" href="mailto:erich@acm.org?subject=Problem with Mineways">Contact Me</a>
+          </div>
         </div>
-        <div id="community">
-          <a title="Community" id="drawer3" class="drawer closed" href="community.html">Community</a>
-          <a title="Forum" class="drawerContents"  href="http://www.minecraftforum.net/topic/892856-mineways-3d-prints-of-minecraft-objects/">Forum</a>
-          <a title="Subreddit" class="drawerContents"  href="http://www.reddit.com/r/mineways/">Subreddit</a>
-          <a title="Flickr Gallery" class="drawerContents"  href="http://www.flickr.com/groups/mineways/pool/">Flickr Gallery</a>
-          <a title="Video" class="drawerContents" href="http://www.youtube.com/playlist?list=PL3AE7AB94E9114715&feature=mh_lolz">Videos</a>  
+        <div class="menuDrawer">
+          <a id="community" class="drawer">Community</a>
+          <div class="closed contents">
+            <a title="Community" id="drawer3" class="drawer closed" href="community.html">Gallery</a>
+            <a title="Forum" class="drawerContents"  href="http://www.minecraftforum.net/topic/892856-mineways-3d-prints-of-minecraft-objects/">Forum</a>
+            <a title="Subreddit" class="drawerContents"  href="http://www.reddit.com/r/mineways/">Subreddit</a>
+            <a title="Flickr Gallery" class="drawerContents"  href="http://www.flickr.com/groups/mineways/pool/">Flickr Gallery</a>
+            <a title="Video" class="drawerContents" href="http://www.youtube.com/playlist?list=PL3AE7AB94E9114715&feature=mh_lolz">Videos</a> 
+          </div> 
         </div>
       </div>
     </div>

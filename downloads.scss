@@ -1,5 +1,6 @@
 /* Vendor Dependencies */
 @import "compass";
+@import "global/base";
 
 /* Authored Dependencies */
 //@import "global/colors";
@@ -9,6 +10,23 @@
 //@import "global/tabs";
 //@import "global/modals";
 
-/* Sections */
-@import "global/header";
-//@import "global/footer";
+$osIcon : 100px;
+
+body{
+	#downloadImgs{
+		display:block;
+		text-align: center;
+		padding:10px 0;
+		div{
+			display:inline-block;
+			margin:0px 10px 10px 10px;
+			margin: 0 5%;
+			img{
+				@include xy($osIcon, $osIcon);
+			}
+			p {
+				@include minecrafterlite;
+			}
+		}
+	}
+}

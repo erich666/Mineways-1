@@ -14,10 +14,7 @@
 	}
 
 	#navbar{
-		+ div{
-			font-size: 0;
-		}
-		div{
+		.menuDrawer{
 			padding-top: 10px;
 			text-align: center;
 			width:260px;
@@ -27,7 +24,7 @@
 			border-radius:3px;
 			border: 1px solid #CCCCCC;
 			margin: 0px 5px;
-			> a{
+			a{
 				text-decoration: none;
 				color: #005469;
 			}
@@ -37,11 +34,17 @@
 			.drawer{
 
 			}
-			.drawer.closed ~ .drawerContents {
+			.contents{
+				display:block;
+			}
+			.closed{
 				display:none;
 			}
+			.drawer.closed ~ .drawerContents {
+				//display:none;
+			}
 			.drawer.opened ~ .drawerContents {
-				display:block;
+				//display:block;
 			}
 			.drawer.active {
 			    display: block;

@@ -9,6 +9,9 @@ body{
 		text-align: center;
 		.eiffelContainer{
 			display:inline-block;
+			img{
+				margin-bottom:10px;
+			}
 		}
 		p, a, span{
 			@include minecrafter;
