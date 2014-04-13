@@ -86,25 +86,25 @@ a:hover {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003111}}
 b {
-  font-family: vt323, sans-serif;
+  font-family: "helvetica nue", sans-serif;
   position: relative;
   top: 2px;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003117}}
 h2, h3, h4 {
-  font-family: vt323, sans-serif;
+  font-family: "helvetica nue", sans-serif;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003121}}
 h1 {
-  font-family: vt323, sans-serif;
+  font-family: "helvetica nue", sans-serif;
   text-align: center;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/global\/base\.scss}line{font-family:\00003126}}
 p, a, span {
-  font-family: vt323, sans-serif;
+  font-family: "helvetica nue", sans-serif;
 }
 
 @font-face {
@@ -142,5 +142,5 @@ body #downloadImgs div img {
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/Ryan\/Dropbox\/Mineways\/downloads\.scss}line{font-family:\0000327}}
 body #downloadImgs div p {
-  font-family: vt323, sans-serif;
+  font-family: "helvetica nue", sans-serif;
 }

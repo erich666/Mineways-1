@@ -11,7 +11,7 @@
 	}
 
 	p, span, a{
-		@include minecrafterlite;
+		@include minecrafter;
 	}
 
 	#navbar{
@@ -27,15 +27,14 @@
 			margin: 0px 5px;
 			margin-bottom:10px;
 			a{
+				position:relative;
+				top:5px;
 				margin-left:20px;
 				text-decoration: none;
 				color: #005469;
 			}
 			a:hover{
 				color:#A8001C;
-			}
-			.drawe:hover{
-
 			}
 			.contents{
 				display:block;
@@ -50,6 +49,11 @@
 			}
 			.drawer.active {
 			    display: block;
+			}
+		}
+		.menuDrawer:hover{
+			.closed{
+				display:block;
 			}
 		}
 	}
