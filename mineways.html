@@ -25,18 +25,17 @@
 <h1>General Information</h1>
 
 <div id="googleGroup">
-    <p class="noPadNoMarg">Subscribe to Mineways - only for important announcements, such as new version releases.</p> 
+    <p class="noPadNoMarg">Subscribe to the Mineways mailing list - it's for only important announcements, such as new version releases.</p> 
     <form action="http://groups.google.com/group/mineways/boxsubscribe">
-    <a href="http://groups.google.com/group/mineways">Visit this group.</a>
     <div>
       <div>
       Email: <input type=text name=email>
-      <input type=submit name="sub" value="Subscribe">
+      <input type=submit name="sub" value="Subscribe"> <a href="http://groups.google.com/group/mineways">Visit this group.</a>
       </div>
     </div>
   </form>
 </div>
-<P>
+<P>&nbsp;<br>
 <a href="#bugs">Check the bug list</a> if you have problems, and <a href="mailto:erich@acm.org">let me know</a> if you're still stuck. The program is open-source and is based on the (great) open-source mapping program <a href="http://seancode.com/minutor/">minutor</a> written by Sean Kasun - his work gave me a huge headstart. Mineways is a superset of his mapper, with a model exporter and other features added. I wrote this program just for fun, I'm not associated with Shapeways or Mojang. There are other print services besides <a href="http://shapeways.com">Shapeways</a> that work with Mineways, such as <a href="http://sculpteo.com/">Sculpteo</a>, <a href="http://i.materialise.com/">i.materialise</a> and <a href="http://ponoko.com">Ponoko</a>, as well as <a href="http://www.additive3d.com/3dpr_cht.htm">home 3D printers</a>, such as <a href="http://reprap.org/wiki/RepRap">RepRaps</a> and <a href="http://store.makerbot.com/thing-o-matic-kit-mk7.html">Thing-O-Matics</a> (<a href="http://wiki.makerbot.com/thingomatic">wiki</a>).
 <P>
 Normally you can just hit "OK" on the export dialog and things will work fine. Read on if you want to understand how to make your models less expensive, use different texture packs, and otherwise tailor you want to see printed out. What follows is extensive documentation about each part of the export and print process. If you don't want to wade through it all, at least search this page for the phrase "Key tip", as these bits are particularly useful.
@@ -74,7 +73,7 @@ Normally you can just hit "OK" on the export dialog and things will work fine. R
  <LI><a href="#models">Stuff to Print</a> - where to get models and worlds.
  <LI><a href="#packages">Other Packages</a> - other model exporters and related software.
 </UL>
-<LI><a href="#shortcuts">Shortcut Keys</a> - along with quick descriptions of various features.
+<LI><a href="#shortcuts">Keyboard Shortcut Keys</a> - along with quick descriptions of various features.
 <LI><a href="#blocks">Block Types Supported</a> - how various block types are exported.
 <LI><a href="#bugs">Known Bugs</a> - and workarounds, so check here if you have a problem loading, saving, etc.
 <LI><a href="#versions">Version History</a>
@@ -112,7 +111,7 @@ If something goes wrong, here's the checklist I go through with people:
 <LI>Did you <a href="http://realtimerendering.com/erich/minecraft/public/mineways/mineways.zip">download the latest version</a>? Mineways has undergone many bug fixes.
 <LI>Did you read any warnings from the program carefully?
 <LI>Try the program one more time, just to be sure. Sometimes starting fresh clears out some box inadvertantly checked, or untangles some hidden program bug.
-<LI>If you're on a Mac, <a href="index.html#mac">see this information</a> for how to run Mineways.
+<LI>If you're on a Mac, <a href="downloads.html#mac">see this information</a> for how to run Mineways.
 </UL>
 <P>
 Here are some common problems:
@@ -323,12 +322,12 @@ On the left, the basic 256x256 terrainExt.png file is used; on the right, the in
   <img src="http://realtimerendering.com/erich/minecraft/public/mineways/images/spawn_hires.jpg">
 </div>
 <P>
-<a name="obj_export_options">
+<a id="obj_export_options">
 <B>Wavefront OBJ file export options:</B></a>
 <UL>
 <LI>Export separate objects: on by default, this option says each type of block - stone, logs, fences - are grouped together into objects. Turning this option off makes the whole model a single object, which can be useful for simplifying import into rendering packages.
 <LI>Material per object: on by default, each object is given a separate material. Turning this option off for some renderers makes for a simpler import conversion process, at the cost of having only one material.
-<LI><a name="full_material">SAP/G3D material:</a> Checking this box causes the diffuse color of the material to always be white (which affects water in 3DS MAX), and for a more elaborate illumination model to be output (which adversely affects Blender's rendering of water). <a href="http://meshlab.sourceforge.net/">MeshLab</a> and the <a href="http://sourceforge.net/projects/g3d/files/beta-g3d-cpp/10.00%20beta%200/G3D-10.00-b0.0-viewer-win64.zip/download">G3D viewer</a> have the feature/bug that the texture color is multiplied by the material color. Most renderers (Maya, Cinema 4D, Blender) do not perform this multiplication, so leaving this box unchecked for them means you can turn off textures and still see the solid block colors. This is particularly handy for Blender, where textures are off by default.
+<LI><a id="full_material">SAP/G3D material:</a> Checking this box causes the diffuse color of the material to always be white (which affects water in 3DS MAX), and for a more elaborate illumination model to be output (which adversely affects Blender's rendering of water). <a href="http://meshlab.sourceforge.net/">MeshLab</a> and the <a href="http://sourceforge.net/projects/g3d/files/beta-g3d-cpp/10.00%20beta%200/G3D-10.00-b0.0-viewer-win64.zip/download">G3D viewer</a> have the feature/bug that the texture color is multiplied by the material color. Most renderers (Maya, Cinema 4D, Blender) do not perform this multiplication, so leaving this box unchecked for them means you can turn off textures and still see the solid block colors. This is particularly handy for Blender, where textures are off by default.
 </UL>
 <P>
 <b>Make Z the up direction instead of Y:</b> some graphics applications consider the Y direction to be "up", some Z. If your model imports sideways into your application, check (or uncheck) this box.
@@ -378,7 +377,7 @@ Currently even extremely thin objects, such as sign posts and single fence posts
 <b id="individual" class="ib">Individual blocks:</b><span> For rendering, you may want to have every block in the scene be a separate object. In this way you could have a character mine blocks, a creeper or TNT explode them, etc. By checking this box, every block is a separate object and so can be deleted, created, animated, etc., as you desire. This considerably increases file size, so use it only if you need it. If you run into memory/performance problems and have some small area you want to modify, export just that volume using this option, then export the rest of the scene without this option. You can use careful trimming, a</span><a href="#schemes">color scheme</a><span>, or simply removing the blocks using Minecraft itself, to avoid exporting the same blocks twice. You may want to turn off "Center Model" so that each export uses the same coordinates. Note that this option affects VRML export for printing, though is usually A Bad Idea, as the model is formed of individual blocks.</span><I>(thanks to Ryan Miller for the idea.)</I>
 </p>
 <P>
-<a name="blocktestworld">
+<a id="blocktestworld">
 If you want to export any particular block,</a> use File | Open and select the "[Block Test World]" - this is an internally-generated "world" of blocks, with each block type listed from west to east in <a href="http://minecraft.gamepedia.com/Block_ids">block ID</a> order, and with variants shown from north to south. To select a single block, find it, select it, then hit "[" to move the bottom level up by one, so selecting only the block itself and not the surrounding grass.
 <P>
 Here's a view of a tiny piece of [Block Test World] exported to OBJ and viewed with <a href="http://sourceforge.net/projects/g3d/files/beta-g3d-cpp/10.00%20beta%200/G3D-10.00-b0.0-viewer-win64.zip/download">G3D</a>:
@@ -529,7 +528,7 @@ The "show welds" option shows what blocks were added by the various "connect par
 <P>
 <b>Key tip, worth repeating:</b> at the beginning of the model file itself (which is a text file, so can be viewed in any text editor) is a summary of various statistics, such as number of blocks generated, model dimensions, and cost (good to within a few cents).
 
-<P><H3 NAME="importsettings">
+<P><H3 id="importsettings">
 Import Settings
 </H3>
 So you've worked hard to figure out exactly what piece of your world to export, you've set the myriad export settings just how you want, then you export your file. You close down Mineways, then three seconds later you realize you should have made one more tweak. Aagh, now you need to put in all the settings again!
@@ -829,7 +828,7 @@ You now have a number of options. The "Click to see repair work on your model" s
 Note the links above these options. "Settings" lets you add photos, change your description and sharing options, and set the initial scale for the object. "Customize" gives some interesting options, such as engraving text, adding images and symbols, and smoothing the design. This last option can give an interesting look to smaller models, though there is a risk of some bits of the model becoming detached when printed.
 <P>
 <div id="imgSmoothing">
-  <b>Smoothing:</b><p> done using Sculpteo's "smooth the design" customization option:</p>
+  <b>Smoothing:</b><p> done using Sculpteo's "smooth the design" customization option:</p><br>
   <img src="http://realtimerendering.com/erich/minecraft/public/mineways/images/smoothing_happy_home.jpg">
   <img src="http://realtimerendering.com/erich/minecraft/public/mineways/images/smoothing_adobe.jpg">
 </div>
@@ -839,7 +838,7 @@ Note the links above these options. "Settings" lets you add photos, change your 
 If you <i>really</i> want to get meta, consider this option: making a hologram of your creation! See <a href="http://www.zebraimaging.com/mineways">Zebra Imaging's Mineways site</a>. You can use Mineways to export a model, then order a holographic 3D print of your creation. I made a little (pretty terrible!) video of the results; I hope to make a better one soon.
 <P>
 
-<P><H2 NAME="stuff">
+<P><H2 id="stuff">
 Related Resources
 </H2>
 Here are some related (free) tools that are handy, collected in one spot:
@@ -919,7 +918,7 @@ Mineways is not the first to offer a Minecraft model exporter, nor the best for 
 </li>
 </ul>
 
-<h2 id="shortcuts">Shortcut keys</h2>
+<h2 id="shortcuts">Keyboard Shortcut keys</h2>
 Most operations can be done with the mouse: left button and mousewheel for viewing, middle mouse button for setting the depth to whatever is at that location, right mouse selects a region to export - more on this in the <a href="#select">Selection section</a>.
 <ul>
 <li><b>WASD</b> and <b>the arrow keys</b> move around.
@@ -1651,7 +1650,7 @@ Hopper (#154)
 </TABLE>
 
 
-<h2 NAME="bugs">Known Bugs</h2>
+<h2 id="bugs">Known Bugs</h2>
 Find a bug? First, make sure you have the latest version installed, and check <a href="#troubleshooting">the troubleshooting section</a> and the list below. Still stuck? <a href="mailto:erich@acm.org">Send me an email</a> and I'll help you out. Fix a bug? You're my personal hero, and <a href="mailto:erich@acm.org">send me the code</a>.
 <UL>
 <LI>The program will crash on huge area exports. Basically, it runs out of memory. See the <a href="#troubleshooting">the troubleshooting section</a> for a workaround (multiple exports). I hope to make a 64-bit version someday (it's harder than it looks, at least for me).
@@ -1660,7 +1659,7 @@ Find a bug? First, make sure you have the latest version installed, and check <a
 <LI>ZLIB: for some weird reason I need to link to two different versions of the ZLIB library. It's some problem with <a href="http://en.wikipedia.org/wiki/Name_mangling">name mangling</a>, but I don't know what. Things work fine, but this is dumb (on my part, I would guess). Help appreciated!
 </UL>
 
-<h2 NAME="versions">Version History</h2>
+<h2 id="versions">Version History</h2>
 <UL>
 <LI>Version 1.0, 12/24/2011 - <a href="http://realtimerendering.com/erich/minecraft/public/mineways/minewaysV100.zip">exe</a>, <a href="http://realtimerendering.com/erich/minecraft/public/mineways/MinewaysSourceV100.rar">source</a>
 <LI>Version 1.01, 12/27/2011 - <a href="http://realtimerendering.com/erich/minecraft/public/mineways/minewaysV101.zip">exe</a>, <a href="http://realtimerendering.com/erich/minecraft/public/mineways/MinewaysSourceV101.rar">source</a> - fixed depth going to -1, added warnings about models being too large, increased map cache size, improved model summary information at top of model file.
@@ -1738,7 +1737,7 @@ This is my own wishlist, in order of interest; if you have a good idea, <a href=
 That's it - have fun!
 
 <HR>
-<P><H2 NAME="offsite">Links</H2>
+<P><H2 id="offsite">Links</H2>
 Some links I commonly use.
 <UL>
 <LI><b><a href="https://groups.google.com/forum/#!forum/mineways">Subscribe to Mineways Google Group</a></b> for new version announcements; no spam.
